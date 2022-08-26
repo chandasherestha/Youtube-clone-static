@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation{
+    width: 1156px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 19% 81%;;
+    height: 60px;
+    grid-gap: 20px;
+}
+.top-navigation-1{
+    display: flex;
+    font-size: 21px;
+    padding-left: 27px;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 8px
+}
+.top-navigation-1 img{
+    width: 120px;
+    height: 67px;
+    position: absolute;
+    top: -13px;
+    left: 57px;
+}
+.top-navigation-2{
+       width: 1253px;
+    margin-left: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.search-container{
+    position: relative;
+}
+.search-container input{
+    width: 680px;
+    height: 45px;
+    padding-left: 23px;
+    margin-left: 102px;
+    margin-top: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: gray;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.search-container input:hover{
+    border: 1px solid lightblue;
+}
+.search-container button{
+    width: 72px;
+    height: 45px;
+    background: #E5E5E5;
+    border:  1px solid rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: absolute;
+    top: 6px;
+    left: 742px;
+    font-size: 20px;
+}
+.microphone-img img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 9px;
+    left: 823px;
+}
+.microphone-logo{
+    position: absolute;
+    top: 17px;
+    left: 836px;
+    font-size: 23px;
+}
+.video-img img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3px;
+    left: 1009px;
+}
+.menu-img img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 11px;
+    left: 1069px;
+}
+.subscribe-bell {
+    position: absolute;
+    top: 13px;
+    left: 1124px;
+    font-size: 30px;
+} 
+.user-profile img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1176px;
+}
+
+.youtube-body{
+    display: flex;
+    flex-flow: row wrap;
+}
+.left-side-menu-1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+.left-menu{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.left-menu-logo img{
+    width: 17px;
+    height: 19px;
+}
+.left-menu-desc p{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.left-side-menu-2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.left-side-menu-3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.left-side-menu-3 h3{
+    color: #2c3e50;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.left-menu-logo-3 img{
+    width: 32px;
+    height: 32px;
+}
+.left-menu-desc-3 p{
+    padding-left: 25px;
+    padding-top: 7px;
+    font-size: 16px;
+}
+.left-showing p{
+    padding-top: 15px;
+    padding-left: 70px;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.left-showing-down-arrow{
+    position: absolute;
+    top: 287px;
+    left: 39px;
+    font-size: 20px;
+}
+.left-side-menu-4{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.left-side-menu-4 h3{
+    color: #2c3e50;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.left-side-menu-5{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.left-side-menu-footer{ 
+    width: 249px;
+   border:1px solid blueviolet;
+
+}
+.left-side-menu-footer p{
+    /*padding-left: 10px;
+    padding-top: 10px;*/
+    padding-right: 40px;
+    color:gray ;
+   
+}
+.left-copyright h6{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.right-side-wrapper-nav{
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 1252px;
+    height: 51px;
+    padding-left: 20px;
+    margin-left: 17px;
+
+}
+.btn-1{
+    width: 45px;
+    height: 31px;
+    border-radius: 27px;
+    border: none;
+    color: white;
+    background: black;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.btn-2{
+    width: 60px;
+    height: 31px;
+    color: black;
+    opacity: 70%;
+    border-radius: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-right: 16px;
+}
+.btn-3{
+    width: 80px;
+    height: 31px;
+    color: black;
+    opacity: 70%;
+    border-radius: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-right: 16px;
+}
+.btn-4{
+    width: 90px;
+    height: 31px;
+    color: black;
+    opacity: 70%;
+    border-radius: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-right: 16px;
+}
+.btn-5{
+    width: 100px;
+    height: 31px;
+    color: black;
+    opacity: 70%;
+    border-radius: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-right: 16px;
+}
+.right-side-wrapper-right-arrow{
+    color: black;
+    opacity: 60%;
+    font-size: 26px;
+    position: absolute;
+    top: 11px;
+    right: 19px;
+}
+.right-side-wrapper-main{
+    background:#E5E5E5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 16px;
+   /*  grid-gap: 10px;
+   height: 1260px;*/
+}
+.right-side-wrapper-box{
+    /*border: 1px solid black;*/
+    width: 280px;
+    height: 285px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    margin-left: 20px
+}
+.right-side-wrapper-box img{
+    width: 280px;
+    height: 160px;
+}
+.right-side-wrapper-box h3{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.right-side-wrapper-box p{
+    font-size: 14px;
+    padding-top: 5px;
+    color:black;
+    opacity: 70%;
+}
+.left-side-menu {
+    width: 15%;
+}
+.right-side-wrapper {
+    width: 85%;
+}
+.left-side-menu-6-footer {
+    
+    display: flex;
+    flex-flow: row wrap;
+    row-gap:5px;
+    column-gap: 1px;
+    justify-content: space-between;
+}
+.left-side-menu-6-footer p {
+    width: calc(100% / 3 - 1px);
+    font-size: 12px;
+    line-height:13px;
+}
+@media screen and (max-width: 800px){
+.main-body{
+    width: 1518px;
+}
+.left-side-menu-6-footer p {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width:500px){
+    .right-side-wrapper-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:5px;
+    }
+   .right-side-wrapper-box{
+    margin-left: 42px;
+    width: 341px;
+    height: 353px;
+    }
+    .right-side-wrapper-box img{
+        height: 193px;
+        width: 339px;
+    }
+}
